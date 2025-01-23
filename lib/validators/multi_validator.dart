@@ -4,7 +4,7 @@ export 'required_validator.dart';
 export 'email_validator.dart';
 export 'min_length_validator.dart';
 
-/// Çoklu doğrulama işlemi için kullanılır.
+/// Use for multi validation operations
 class MultiValidator extends SmartFormValidatorService {
   final List<SmartFormValidatorService> validators;
 

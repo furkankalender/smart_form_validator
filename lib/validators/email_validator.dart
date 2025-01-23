@@ -1,10 +1,11 @@
 import 'package:smart_form_validator/validators/smart_form_validator_service.dart.dart';
 
-
 class EmailValidator extends SmartFormValidatorService {
   final String errorMessage;
 
-  EmailValidator({this.errorMessage = "Validates if the input is a proper email address."});
+  EmailValidator(
+      {this.errorMessage =
+          "Validates if the input is a proper email address."});
 
   @override
   String? validate(String? value) {

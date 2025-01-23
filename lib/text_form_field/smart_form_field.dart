@@ -6,6 +6,15 @@ class SmartFormField extends StatefulWidget {
   final TextEditingController controller;
   final List<SmartFormValidatorService> validators;
   final bool obscureText;
+  final bool autofocus = false;
+  final InputDecoration? decoration = const InputDecoration();
+  final TextInputType? keyboardType;
+  final TextCapitalization textCapitalization = TextCapitalization.none;
+  final TextInputAction? textInputAction;
+  final TextStyle? style;
+  final StrutStyle? strutStyle;
+  final TextDirection? textDirection;
+  final bool readOnly = false;
 
   const SmartFormField({
     super.key,
@@ -13,6 +22,11 @@ class SmartFormField extends StatefulWidget {
     required this.controller,
     required this.validators,
     this.obscureText = false,
+    this.keyboardType,
+    this.textInputAction,
+    this.style,
+    this.strutStyle,
+    this.textDirection,
   });
 
   @override
@@ -51,6 +65,14 @@ class _SmartFormFieldState extends State<SmartFormField> {
             border: const OutlineInputBorder(),
           ),
           onChanged: _validate,
+          keyboardType: widget.keyboardType,
+          textInputAction: widget.textInputAction,
+          style: widget.style,
+          strutStyle: widget.strutStyle,
+          textDirection: widget.textDirection,
+          readOnly: widget.readOnly,
+          autofocus: widget.autofocus,
+          
         ),
         if (_errorMessage != null)
           Padding(
