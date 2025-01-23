@@ -249,7 +249,7 @@ void main() {
 
 ## 📧 **Contact**
 
-For feature requests or issues, please open a ticket on [GitHub](https://github.com/furkankalender/smart_form_validator) or reach out via email at **your.furkankalender46@gmail.com**.
+For feature requests or issues, please open a ticket on [GitHub](https://github.com/furkankalender/smart_form_validator) or reach out via email at **furkankalender46@gmail.com**.
 
 ---
 

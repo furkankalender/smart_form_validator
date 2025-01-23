@@ -1,8 +1,8 @@
 name: smart_form_validator
-description: "Smart validation Package"
-version: 0.0.1
+description: A comprehensive Flutter package for smart and dynamic form validation.
+version: 1.0.1
 homepage:
-
+license: MIT
 environment:
   sdk: ^3.6.0
   flutter: ">=1.17.0"
