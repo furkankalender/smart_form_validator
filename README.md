@@ -237,33 +237,6 @@ void main() {
 
 ---
 
-## 🚀 **Publishing the Package**
-
-1. **Update `pubspec.yaml`:**
-
-```yaml
-name: smart_form_validator
-description: A comprehensive Flutter package for smart and dynamic form validation.
-version: 1.0.0
-homepage: https://github.com/your_username/smart_form_validator
-license: MIT
-```
-
-2. **Run Linter & Tests:**
-
-```bash
-flutter analyze
-flutter test
-```
-
-3. **Publish to pub.dev:**
-
-```bash
-flutter pub publish
-```
-
----
-
 ## 🙌 **Contributing**
 
 1. Fork the repository  
